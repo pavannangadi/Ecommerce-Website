@@ -1,0 +1,40 @@
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+
+}
+.box{
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 23%; 
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+
+.box-img {
+  height: 250px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+.box-content{
+  margin-left: 1rem ;
+  margin-right: 1rem;
+}
+
+.back-home a{
+  text-decoration: none;
+background-color: white;
+font-size: 25px;
+color: black;
+border-top: 0.5px solid white;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}

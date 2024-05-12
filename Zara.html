@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>ZARA</title>
+    <link rel="stylesheet" href="Zara.css">
+
+</head>
+<body>
+    <video id="myVideo" width="100%" height="100%" controls autoplay muted loop>
+        <source src="zara_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      
+      <div class="text-overlay">
+        <h1><a href="Zara.html" id="e2" style="font-size: 150px;" target="_self">ZARA</a></h1>
+        <p>Explore More</p>
+            <a href="Home.html" target="_self">About Us!</a>
+            <a href="SignUp.php" target="_self">SignUp</a>             
+            <a href="Login.php" target="_self" onclick="return confirmNavigation()">Login</a>            
+            <a href="Products.php" target="_self">Products</a>
+            <a href="addproducts.php" target="_self">Add Products</a>           
+      </div>
+
+      <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>HELP</p>
+                <a>MY ZARA ACCOUNT</a>
+                <a>ITEMS AND SIZES</a>
+                <a>GIFT OPTIONS</a>
+                <a>SHIPPING</a>
+                <a>MY PURCHASES</a>
+                <a>EXCHANGES, RETURNS AND REFUNDS</a>
+                <a>ZARA EXPERIENCIES</a>
+            </ul>
+
+            <ul>
+                <p>FOLLOW US</p>
+                <a>NEWSLETTER</a>
+                <a>INSTAGRAM</a>
+                <a>FACEBOOK</a>
+                <a>X</a>
+                <a>PINTEREST</a>
+                <a>YOUTUBE</a>
+            </ul>
+
+            <ul>
+                <p>COMPANY</p>
+                <a>ABOUT US</a>
+                <a>JOIN LIFE</a>
+                <a>OFFICES</a>
+                <a>STORES</a>
+                <a>WORK WITH US</a>
+            </ul>
+
+            <ul>
+                <p>POLICIES</p>
+                <a>PRIVACY POLICY</a>
+                <a>PURCHASE CONDITIONS</a>
+                <a>GIFT CARD CONDITIONS</a>
+                <a>COOKIES SETTINGS</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="zara_logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages"> 
+                <a>NAME AND ADDRESS OF THE MANUFACTURER:</a>
+                <a>INDUSTRIA DE DISEÑO TEXTIL, S.A. (INDITEX, S.A.)</a>
+                <a>AVENIDA DE LA DIPUTACIÓN, EDIFICIO INDITEX, 15143, ARTEIXO (A CORUÑA), SPAIN</a>
+            </div>
+            <div class="copyright">
+                © ALL RIGHTS RESERVED</div>
+        </div>
+    </footer>
+    <script>
+        alert("Welcome to my website");
+        e2.onmouseover = function(){
+            document.getElementById("e2").innerHTML = "CLOTHING";
+        }
+    
+        e2.onmouseout = function(){
+            document.getElementById("e2").innerHTML = "ZARA";
+        }
+    
+        function confirmNavigation(){
+            return confirm("Do you want to navigate to Login Page?");
+        }
+        </script>
+</body>
+</html>
